@@ -142,7 +142,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('/frontend/img/s3.jpeg') no-repeat center center/cover;
+    background: url('../img/s3.jpeg') no-repeat center center/cover;
     height: 620px;
     display: flex;
     justify-content: center;
@@ -577,7 +577,7 @@ nav {
 /* Working With Us Section */
 .working-with-us {
     padding: 50px 20px;
-    background: linear-gradient(to left, white, rgba(190, 188, 188, 0.4)) 120%, url(/frontend/img/s2.jpg);
+    background: linear-gradient(to left, white, rgba(190, 188, 188, 0.4)) 120%, url('../img/s2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -896,7 +896,7 @@ nav {
 
 /* Bero Section */
 .bero-section {
-    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/frontend/img/s3.jpeg') center/cover no-repeat;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('../img/s3.jpeg') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 90px 20px;
