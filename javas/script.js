@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("🚀 Sending data to backend:", formData); // Debugging log
   
         try {
-            const response = await fetch("http://localhost:3000/contact", {
+            const response = await fetch("https://contact-form-backend-6yjx.onrender.com/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
