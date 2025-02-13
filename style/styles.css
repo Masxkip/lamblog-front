@@ -93,7 +93,7 @@ nav {
 }
 
 .hamburger {
-    font-size: 32px;
+    font-size: 34px;
     display: none;
     cursor: pointer;
     color: black;
@@ -134,7 +134,7 @@ nav {
 .mobile-menu ul li a {
     text-decoration: none;
     color: black;
-    font-size: 16.5px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -142,7 +142,10 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('../img/s3.jpeg') no-repeat center center/cover;
+    background-image: url('../img/s3.webp'), url('../img/s3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 620px;
     display: flex;
     justify-content: center;
@@ -191,7 +194,7 @@ nav {
 .h-btn {
   display: block; /* Makes the button a block element */
     margin: 20px auto; /* Centers the button horizontally */
-    padding: 12px 30px;
+    padding: 12px 20px;
     background-color: #2aea90;
     color: white;
     margin-top: 30px;
@@ -217,7 +220,7 @@ nav {
 
     .call-btn {
         display: none;
-        font-size: 5px;
+        font-size: 7px;
     }
 
     .hamburger {
@@ -233,19 +236,21 @@ nav {
     }
 
     .hero h1 {
-        font-size: 30px;
+        font-size: 3em;
     }
 
     .hero h2 {
-      font-size: 16.9px;
+      font-size: 1.56em;
+  
+
   }
 
     .hero p {
-        font-size: 13.2px;
+        font-size: 1.1em;
     }
 
     .h-btn{
-      font-size: 12px;
+      font-size: 17px;
     }
 }
 
@@ -261,12 +266,6 @@ nav {
   .about-us h1 {
     font-size: 3rem;
     color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-us h2 {
-    font-size: 2rem;
-    color: #2aea90;
     margin-bottom: 20px;
   }
   
@@ -300,20 +299,16 @@ nav {
 
   @media (max-width: 768px) {
     .about-us h1 {
-      font-size: 2rem;
-    }
-  
-    .about-us h2 {
-      font-size: 1.5rem;
+      font-size: 2.5rem;
     }
   
     .about-us p {
-      font-size: 1rem;
+      font-size: 1.24rem;
+      width: 100%;
     }
   
     .about-us .about-btn {
-      font-size: 0.77rem;
-      padding: 10px 15px;
+      font-size: 1rem;
     }
   }
 
@@ -405,21 +400,20 @@ nav {
     }
   
     .card h3 {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   
     .card p {
-      font-size: 1rem;
+      font-size: 1.24rem;
     }
   
     .card-btn {
-      font-size: 0.9rem;
-      padding: 8px 12px;
+      font-size: 1rem;
     }
 
     .icon-card p{
-      font-size: 17px;
-      font-weight: 500;
+      font-size: 1.24em;
+      font-weight: 400;
     }
   }
 
@@ -490,23 +484,23 @@ nav {
     }
 
     .service-card i{
-      font-size: 1.75em;
+      font-size: 1.8em;
     }
 
     .service-card h3{
-      font-size: 1.3em;
+      font-size: 1.7em;
     }
 
     .service-card p{
-      font-size: 0.99em;
+      font-size: 1.25em;
     }
 
     .services h2{
-      font-size: 31px;
+      font-size: 2.3em;
     }
 
     .subtitle{
-      font-size: 17px;
+      font-size: 1.2em;
     }
 
     .cta{
@@ -523,7 +517,6 @@ nav {
   width: 100%;
 
 }
-
 
 .section h2 {
   font-size: 2em;
@@ -567,8 +560,24 @@ nav {
       flex-direction: column;
   }
 
+  .column p{
+    font-size: 1.25em;
+  }
+
+  .column h3{
+    font-size: 1.35em;
+  }
+
   .section h2{
-    font-size: 26px;
+    font-size: 2em;
+  }
+
+  .image-container h3{
+    font-size: 1.35em;
+  }
+
+  .image-container p{
+    font-size: 1.25em;
   }
 }
   
@@ -661,11 +670,11 @@ nav {
     }
   
     .content h2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
   
     .content ul li {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -773,21 +782,24 @@ nav {
   /* Responsive Design */
   @media (max-width: 768px) {
     .contact-header {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
   
     .contact-description {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
     }
   
     .form-group input,
     .form-group textarea {
-      font-size: 0.9rem;
+      font-size: 1.3rem;
+    }
+
+    .form-group label {
+      font-size: 1.5em;
     }
   
     .submit-button {
-      font-size: 0.9rem;
-      padding: 12px 15px;
+      font-size: 1rem;
     }
   }
 
