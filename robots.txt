@@ -1,0 +1,5 @@
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /private/
+
+Sitemap: https://vancouvergrillcleaning.ca/sitemap.xml
