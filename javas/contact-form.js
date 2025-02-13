@@ -33,6 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
     contactForm.addEventListener("submit", async function (event) {
         event.preventDefault();
 
+        const responseMessage = document.getElementById("contactResponseMessage");
+    responseMessage.innerHTML = "📩 Sending message... Please wait."; // Show instant feedback
+    responseMessage.style.color = "blue";
+
         const formData = {
             name: document.getElementById("service-full-name").value,
             email: document.getElementById("service-email").value,

@@ -62,6 +62,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
     contactForm.addEventListener("submit", async function (event) {
         event.preventDefault(); // Prevent normal form submission
+
+
+        const responseMessage = document.getElementById("responseMessage");
+    responseMessage.innerHTML = "📩 Sending message... Please wait."; // Show instant feedback
+    responseMessage.style.color = "blue";
+
   
         const formData = {
             name: document.getElementById("full-name").value,
