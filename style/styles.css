@@ -973,7 +973,7 @@ nav {
     }
   
     .bero-button {
-      font-size: 1rem;
+      font-size: 1.1rem;
       padding: 10px 15px;
     }
   }
@@ -1150,9 +1150,10 @@ nav {
       font-size: 10em;
     }
   
-    .about-btn {
-      font-size: 1.1em;
-      font-weight: bold;
+    .About-btn {
+      font-size: 1.35em;
+      padding: 8px 15px;
+      font-weight: 501;
     }
   }
 
@@ -1260,12 +1261,7 @@ nav {
   /* Responsive Design */
   @media (max-width: 768px) {
     #pricing h1 {
-      font-size: 1.9em;
-    }
-  
-    #pricing p {
-      font-size: 0.9em;
-      margin-bottom: 30px;
+      font-size: 3em;
     }
   
     .pricing-card {
@@ -1276,20 +1272,30 @@ nav {
   
   @media (max-width: 480px) {
     #pricing h1 {
-      font-size: 1.6em;
+      font-size: 2.4em;
     }
   
     #pricing p {
-      font-size: 0.9em;
+      font-size: 1.24em;
+      font-weight: 430;
+    }
+
+    .pricing-container h1{
+      font-size: 2.4em;
     }
   
     .pricing-card {
       padding: 15px;
     }
-  
+
+    .pricing-card ul li{
+      font-size: 1.23em;
+    }
+
     .pricing-btn {
       padding: 8px 15px;
-      font-size: 0.9em;
+      font-size: 1.35em;
+      font-weight: 501;
     }
   }
   
@@ -1409,19 +1415,6 @@ nav {
     border: 1.4px solid black;
   }
 
-
-  /* Map Section */
-  .contact-map {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .contact-map-title {
-    font-size: 2rem;
-    color: #1b1f3b;
-    margin-bottom: 1rem;
-  }
-  
   /* Responsive Design */
   
   /* Medium Screens (Tablets) */
@@ -1435,14 +1428,6 @@ nav {
       text-align: center;
     }
 
-    #contact-us h1{
-      font-size: 33px;
-    }
-
-    #contact-us p{
-      font-size: 18px;
-    }
-  
     .contact-info-box ul {
       display: inline-block;
       text-align: left;
@@ -1456,9 +1441,13 @@ nav {
     }
   
     #contact-us p {
-      font-size: 1em;
+      font-size: 1.23em;
     }
-  
+
+    .contact-info-box{
+      font-size: 1.05em;
+    }
+
     .contact-info-box,
     .contact-form-box {
       padding: 20px;
@@ -1475,9 +1464,24 @@ nav {
     }
   
     .submit-btn {
-      font-size: 1em;
-      padding: 10px;
+      font-size: 1.4em;
+      padding: 8px 15px;
+      font-weight: 501;
     }
+  }
+
+
+
+  /* Map Section */
+  .contact-map {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-map-title {
+    font-size: 2rem;
+    color: #1b1f3b;
+    margin-bottom: 1rem;
   }
   
 
@@ -1533,6 +1537,10 @@ p {
 
     .privacy-policy-container h1{
       font-size: 27.5px;
+    }
+
+    .p-control-btn{
+      font-size: 1.2em;
     }
 }
 
@@ -1645,6 +1653,10 @@ margin-top: 70px;
   .faq, .faq-images {
       flex: 1 1 100%;
       margin-right: 0;
+  }
+
+  .e-btn{
+    font-size: 1.2em;
   }
 }
 

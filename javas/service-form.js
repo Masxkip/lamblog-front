@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const responseMessage = document.getElementById("serviceResponseMessage");
     responseMessage.innerHTML = "📩 Sending message... Please wait."; // Show instant feedback
-    responseMessage.style.color = "blue";
+    responseMessage.style.color = "black";
 
         const formData = {
             name: document.getElementById("service-full-name").value,
