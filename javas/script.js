@@ -44,7 +44,7 @@ nextButton.addEventListener('click', nextTestimonial);
 prevButton.addEventListener('click', prevTestimonial);
 
 // Automatically change testimonials every 5 seconds
-setInterval(nextTestimonial, 8000);
+setInterval(nextTestimonial, 25000);
 
 
 
