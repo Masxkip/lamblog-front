@@ -1,12 +1,12 @@
 {
     "rewrites": [
-      { "source": "/4hY7sTg9FvbN7", "destination": "/index.html" },
-      { "source": "/xB9uYp5qAD99W", "destination": "/aboutus.html" },
-      { "source": "/X4rt56fGTfrQ2", "destination": "/contact.html" },
-      { "source": "/Qz3hjYU8Fg6Wl", "destination": "/fqs.html" },
-      { "source": "/kzTY67Rf12TFd", "destination": "/pricing.html" },
-      { "source": "/12GtyuHW4Bcv5", "destination": "/service.html" },
-      { "source": "/HD2oPO90ywTwe", "destination": "/privacy.html" }
+      { "source": "/4hY7sTg9FvbN7", "destination": "/html/index.html" },
+      { "source": "/xB9uYp5qAD99W", "destination": "/html/aboutus.html" },
+      { "source": "/X4rt56fGTfrQ2", "destination": "/html/contact.html" },
+      { "source": "/Qz3hjYU8Fg6Wl", "destination": "/html/fqs.html" },
+      { "source": "/kzTY67Rf12TFd", "destination": "/html/pricing.html" },
+      { "source": "/12GtyuHW4Bcv5", "destination": "/html/service.html" },
+      { "source": "/HD2oPO90ywTwe", "destination": "/html/privacy.html" }
     ]
   }
   
