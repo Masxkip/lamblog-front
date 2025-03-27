@@ -1828,5 +1828,42 @@ a, .profile-link {
 }
 
 
+.icon {
+  width: 40px;
+  height: 40px;
+  color: whitesmoke; /* Tailwind's emerald-500 */
+  margin-bottom: 10px;
+  background-color: #0b0b0b;
+  border-radius: 8px;
+}
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.service-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .icon {
+  width: 40px;
+  height: 40px;
+  color: whitesmoke; /* You can change this to match your brand */
+  margin-bottom: 15px;
+}
+
 
 
