@@ -1866,4 +1866,33 @@ a, .profile-link {
 }
 
 
+.emoji-icon {
+  width: 100px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+
+.contact-info-box {
+  padding: 2rem;
+}
+
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  color: #2aea90;
+}
+
+
+
 
