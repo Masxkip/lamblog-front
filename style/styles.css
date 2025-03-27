@@ -1821,4 +1821,12 @@ margin-top: 70px;
 
 
 
+/* ✅ Remove underline from all links */
+a, .profile-link {
+  text-decoration: none;
+  color: inherit; /* Keeps the text color consistent */
+}
+
+
+
 
