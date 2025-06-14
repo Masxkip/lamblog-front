@@ -19,12 +19,12 @@ function toggleMenu() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("🚀 contact-form.js loaded!"); // Debugging Log
+    console.log(" contact-form.js loaded!"); // Debugging Log
 
     const contactForm = document.getElementById("contact-contact-form");
 
     if (!contactForm) {
-        console.warn("⚠️ Contact form not found on this page.");
+        console.warn(" Contact form not found on this page.");
         return; // Stops script execution if form is missing
     }
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
 
         const responseMessage = document.getElementById("contactResponseMessage");
-    responseMessage.innerHTML = "📩 Sending message... Please wait."; // Show instant feedback
+    responseMessage.innerHTML = " Sending message... Please wait."; // Show instant feedback
     responseMessage.style.color = "black";
 
         const formData = {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
             message: document.getElementById("service-comments").value
         };
 
-        console.log("🚀 Sending data:", formData);
+        console.log(" Sending data:", formData);
 
         try {
             const response = await fetch("https://vgrill-contact.onrender.com/contact", {
@@ -53,17 +53,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 body: JSON.stringify(formData)
             });
 
-            console.log("🚀 Backend Response:", response.status, response.statusText);
+            console.log(" Backend Response:", response.status, response.statusText);
             const result = await response.text();
 
             responseMessage.style.display = "block";
 
             if (response.ok) {
-                responseMessage.innerText = "✅ Message sent successfully!";
+                responseMessage.innerText = " Message sent successfully!";
                 responseMessage.className = "response-success";
                 contactForm.reset();
             } else {
-                responseMessage.innerText = "❌ Failed to send message.";
+                responseMessage.innerText = " Failed to send message.";
                 responseMessage.className = "response-error";
             }
 
@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 responseMessage.style.display = "none";
             }, 5000);
         } catch (error) {
-            console.error("❌ Network error:", error);
+            console.error(" Network error:", error);
             responseMessage.style.display = "block";
-            responseMessage.innerText = "❌ Network issue. Try again later.";
+            responseMessage.innerText = " Network issue. Try again later.";
             responseMessage.className = "response-error";
 
             setTimeout(() => {

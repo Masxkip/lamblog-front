@@ -40,12 +40,12 @@ header {
 }
 
 .logo-subtitle {
-  display: block; /* Ensures it appears beneath the logo */
-  text-align: center; /* Centers it under the logo */
-  font-size: 11.7px; /* Adjust size for readability */
-  font-weight: 500; /* Slightly bold for emphasis */
-  color: #555; /* A subtle, professional color */
-  letter-spacing: 0.5px; /* Slightly spaced-out letters for clarity */
+  display: block; 
+  text-align: center; 
+  font-size: 11.7px;
+  font-weight: 500; 
+  color: #555;
+  letter-spacing: 0.5px; 
 }
 
 
@@ -72,7 +72,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #2aea90; /* Dark red on hover */
+    color: #2aea90;
 }
 
 

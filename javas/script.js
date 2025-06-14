@@ -52,10 +52,6 @@ setInterval(nextTestimonial, 25000);
 
 
 
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contact-form");
     const responseMessage = document.getElementById("responseMessage");
@@ -65,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         const responseMessage = document.getElementById("responseMessage");
-    responseMessage.innerHTML = "📩 Sending message... Please wait."; // Show instant feedback
+    responseMessage.innerHTML = " Sending message... Please wait."; // Show instant feedback
     responseMessage.style.color = "black";
 
   
@@ -76,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
             message: document.getElementById("comments").value
         };
   
-        console.log("🚀 Sending data to backend:", formData); // Debugging log
+        console.log(" Sending data to backend:", formData); // Debugging log
 
         
   
@@ -89,29 +85,29 @@ document.addEventListener("DOMContentLoaded", function () {
   
             const result = await response.text();
   
-            // ✅ Make responseMessage visible
+            //  Make responseMessage visible
             responseMessage.style.display = "block";
   
             if (response.ok) {
-                responseMessage.innerText = "✅ Your message has been sent successfully!";
+                responseMessage.innerText = " Your message has been sent successfully!";
                 responseMessage.className = "response-success"; // Apply success style
                 contactForm.reset(); // Clear form
             } else {
-                responseMessage.innerText = "❌ Error sending message. Please try again later.";
+                responseMessage.innerText = " Error sending message. Please try again later.";
                 responseMessage.className = "response-error"; // Apply error style
             }
   
-            // ✅ Hide message after 5 seconds
+            //  Hide message after 5 seconds
             setTimeout(() => {
                 responseMessage.style.display = "none";
             }, 5000);
         } catch (error) {
-            console.error("❌ Network error:", error);
+            console.error(" Network error:", error);
             responseMessage.style.display = "block";
-            responseMessage.innerText = "❌ Network error. Please check your connection.";
+            responseMessage.innerText = " Network error. Please check your connection.";
             responseMessage.className = "response-error";
   
-            // ✅ Hide message after 5 seconds
+            //  Hide message after 5 seconds
             setTimeout(() => {
                 responseMessage.style.display = "none";
             }, 5000);
